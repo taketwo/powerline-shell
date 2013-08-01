@@ -1,4 +1,6 @@
 def add_hostname_segment(powerline):
+    if not os.getenv('SSH_CLIENT'):
+        return
     if powerline.args.colorize_hostname:
         from lib.color_compliment import stringToHashToColorAndOpposite
         from lib.colortrans import rgb2short
