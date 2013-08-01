@@ -99,8 +99,8 @@ class Powerline:
 class RepoStats:
     symbols = {
         'detached': u'\u2693',
-        'ahead': u'\u2B06',
-        'behind': u'\u2B07',
+        'ahead': u'\u21E1',
+        'behind': u'\u21E3',
         'staged': u'\u2714',
         'not_staged': u'\u270E',
         'untracked': u'\u2753',
